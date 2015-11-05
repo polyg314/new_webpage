@@ -27,6 +27,7 @@
 
 skrollr.init({
         forceHeight: false,
+        smoothScrolling: true,
         easing: {
             vibrate: function(p) {
                 return Math.sin(p * 10 * Math.PI);
