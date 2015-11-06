@@ -109,7 +109,7 @@ html, body, #skrollr-body{
 #discovery-anim-2{
 	height: 100%;
 	width: 100%;
-	background: url('../img/discovery-anim-1.png');
+	background: url('../img/discovery-anim-3.png');
 /*	background-position: 85% 70%;*/
 	background-size: 100% 100%;
 }
@@ -117,7 +117,7 @@ html, body, #skrollr-body{
 #discovery-anim-3{
 	height: 100%;
 	width: 100%;
-	background: url('../img/discovery-anim-3.png');
+	background: url('../img/discovery-anim-1.png');
 /*	background-position: 85% 70%;*/
 	background-size: 100% 100%;
 }
