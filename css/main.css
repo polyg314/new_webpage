@@ -5,6 +5,35 @@ html, body, #skrollr-body{
     padding: 0;
 }
 
+	#blue_wrapper {
+		position:fixed;
+		top:0;
+		right:20px;
+	}
+
+	
+	#red, #blue {
+		width:128px;
+		height:128px;
+		background:#f33 url(images/face.png);
+	}
+
+	#red {
+		float:left;
+		margin:1em;
+	}
+
+	#blue {
+		background:#09f url(images/face.png) 0 bottom;
+		margin-top:20px;
+	}
+
+	#blue_wrapper {
+		position:fixed;
+		top:0;
+		right:20px;
+	}
+
 
 #slide-1{
 	width: 100%;
