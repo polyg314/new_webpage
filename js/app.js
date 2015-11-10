@@ -24,9 +24,6 @@
 //     $(this).height(slideHeight);
 // });
 
-window.onload = function(){
-	$("#loading-div").fadeOut()
-}
 
 
 skrollr.init({
