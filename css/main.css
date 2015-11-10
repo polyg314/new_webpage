@@ -76,6 +76,7 @@ html, body, #skrollr-body{
 	text-align: center;
 	z-index: 10 !important;
 	color: white;
+	font-size: 55px;
 }
 
 #fog{
@@ -219,5 +220,34 @@ html, body, #skrollr-body{
 
 #links-a h3{
 	font-size: 35px;
+}
+
+
+
+.fireFly {
+    -webkit-transition: box-shadow 1s linear;
+    -moz-transition: box-shadow 1s linear;
+    -ms-transition: box-shadow 1s linear;
+    -o-transition: box-shadow 1s linear;
+    transition: box-shadow 1s linear;
+    position: fixed;
+}
+
+.fireFly.glow{
+/*    background-color: white;*/
+    box-shadow: 0 0 15px rgba(232,240,5,1) !important;
+}
+
+
+.fireFly{
+    width: 4px;
+    height: 4px;
+    background-color: -webkit-radial-gradient(rgba(73,54,137,.5), rgba(73,54,137,0.2)); 
+    background: -o-radial-gradient(rgba(73,54,137,.5), rgba(73,54,137,0.2));
+    background: -moz-radial-gradient(rgba(73,54,137,.5), rgba(73,54,137,0.2)); 
+    background: radial-gradient(rgba(255,255,255,.5), rgba(252,250,150,1));
+/*    background-color: rgba(252,250,150,.4);*/
+    box-shadow: 0 0 5px rgba(232,240,5,1);
+    border-radius: 5px;
 }
 
