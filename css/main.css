@@ -100,10 +100,17 @@ html, body, #skrollr-body{
 #turned-full{
   height: 100%;
   width: 100%;
-  background: white;
   padding-left: 15%;
   padding-top: 20%;
   font-size: 35px;
+  background-size: 100% 100%;
+}
+
+#turned-full-div{
+	height: 100%;
+	width: 100%;
+	background: url('../img/pressy-smarttt.png');
+	background-size: 100% 100%;
 }
 
 
