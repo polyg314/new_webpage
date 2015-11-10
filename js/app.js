@@ -24,6 +24,10 @@
 //     $(this).height(slideHeight);
 // });
 
+window.onload = function(){
+	$("#loading-div").fadeOut()
+}
+
 
 skrollr.init({
         forceHeight: false,
@@ -167,3 +171,6 @@ skrollr.init({
 	    animateDivs5();
 	    animateDivs6();
 	    animateDivs7();
+
+
+
