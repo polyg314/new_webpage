@@ -92,6 +92,9 @@ html, body, #skrollr-body{
   height: 100%;
   width: 100%;
   background: white;
+  padding-left: 10%;
+  padding-top: 30%;
+  font-size: 35px;
 }
 
 
