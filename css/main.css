@@ -97,6 +97,29 @@ html, body, #skrollr-body{
   font-size: 35px;
 }
 
+#graduate{
+	height: 100%;
+	width: 100%;
+	background: url('../img/grad-1.png');
+	background-size: 100% 100%;
+}
+
+#musician{
+	height: 100%;
+	width: 100%;
+	background: url('../img/musician-2.png');
+	background-size: 100% 100%;
+}
+
+#turned-full-div{
+	height: 100%;
+	width: 100%;
+	background: url('../img/pressy-dev.png');
+	background-size: 100% 100%;
+}
+
+
+
 #turned-full{
   height: 100%;
   width: 100%;
@@ -106,10 +129,13 @@ html, body, #skrollr-body{
   background-size: 100% 100%;
 }
 
+
+
+
 #turned-full-div{
 	height: 100%;
 	width: 100%;
-	background: url('../img/pressy-smarttt.png');
+	background: url('../img/pressy-dev.png');
 	background-size: 100% 100%;
 }
 
