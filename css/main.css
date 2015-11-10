@@ -24,13 +24,9 @@ html, body, #skrollr-body{
 
 #slide-4{
 	width: 100%;
-	height: 100%;
+	height: 350%;
 }
 
-#slide-5{
-	width: 100%;
-	height: 100%;
-}
 
 #slide-6{
 	width: 100%;
@@ -174,6 +170,56 @@ html, body, #skrollr-body{
 	width: 100%;
 	background: url('../img/pressy-thought-3.png');
 	background-size: 100% 100%;
+}
+
+
+
+#sun-1{
+	height: 110%;
+	width: 100%;
+	background: url('../img/sun-1.png');
+	background-size: 100% 100%;
+}
+
+#sun-2{
+	height: 110%;
+	width: 100%;
+	background: url('../img/sun-2.png');
+	background-size: 100% 100%;
+}
+
+#sun-3{
+	height: 110%;
+	width: 100%;
+	background: url('../img/sun-3.png');
+	background-size: 100% 100%;
+}
+
+#sun-4{
+	height: 110%;
+	width: 100%;
+	background: white;
+	background-size: 100% 100%;
+}
+
+#utilizing{
+  height: 100%;
+  width: 100%;
+/*  background: hsla(0,0%,100%,0.5);*/
+  padding-left: 15%;
+  padding-top: 25%;
+  font-size: 35px;
+  color: white;
+}
+
+#always{
+  height: 100%;
+  width: 100%;
+/*  background: hsla(0,0%,100%,0.5);*/
+  padding-left: 15%;
+  padding-top: 25%;
+  font-size: 35px;
+  color: white;
 }
 
 
