@@ -62,8 +62,6 @@ html, body, #skrollr-body{
     position: fixed;
 }
 
-
-
 #goldengate{
 	width: 100%;
 	height: 100%;
@@ -72,8 +70,6 @@ html, body, #skrollr-body{
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-
-
 
 #meet-paul{
 	position: absolute;
@@ -124,8 +120,6 @@ html, body, #skrollr-body{
 	background-size: 100% 100%;
 }
 
-
-
 #turned-full{
   height: 100%;
   width: 100%;
@@ -135,9 +129,6 @@ html, body, #skrollr-body{
   font-size: 35px;
 }
 
-
-
-
 #turned-full-div{
 	height: 100%;
 	width: 100%;
@@ -145,14 +136,12 @@ html, body, #skrollr-body{
 	background-size: 100% 100%;
 }
 
-
 #full-stack-dev{
 	height: 100%;
 	width: 100%;
 	background: url('../img/pressy-main-main.png');
 	background-size: 100% 100%;
 }
-
 
 #thought-0{
 	height: 100%;
@@ -192,7 +181,7 @@ html, body, #skrollr-body{
 }
 
 #sun-2{
-	height: 110%;
+	height: 100%;
 	width: 100%;
 	background: url('../img/sun-2.png');
 	background-size: 100% 100%;
@@ -206,7 +195,7 @@ html, body, #skrollr-body{
 }
 
 #sun-4{
-	height: 110%;
+	height: 100%;
 	width: 100%;
 	background: white;
 	background-size: 100% 100%;
