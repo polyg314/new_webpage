@@ -91,11 +91,12 @@ html, body, #skrollr-body{
 }
 
 #scientist-musician{
-  height: 100%;
-  width: 100%;
-  background: hsla(0,0%,100%,0.5);
+/*  height: 100%;
+  width: 100%;*/
+/*  background: hsla(0,0%,100%,0.5);
   padding-left: 15%;
-  padding-top: 25%;
+  padding-top: 25%;*/
+  transform-origin: 20% 80%;
   font-size: 35px;
 }
 
