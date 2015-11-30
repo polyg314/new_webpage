@@ -14,7 +14,7 @@ html, body, #skrollr-body{
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: url("../img/ico_loading.gif") 50% 50% no-repeat rgb(0,0,0);
+	background: url("../img/will.gif") 50% 50% no-repeat rgb(255,255,255);
 }
 
 #slide-1{
