@@ -31,44 +31,27 @@ skrollr.init({
 });
 
 
-   	var fireFly1 = $('#fireFly1');
-		setInterval(function(){
 
-		    fireFly1.hasClass('glow') ? fireFly1.removeClass('glow') : fireFly1.addClass('glow');
-	}, 1042);
+	var	flies = $(".fireFlies");
 
-	var fireFly2 = $('#fireFly2');
-		setInterval(function(){
-		    fireFly2.hasClass('glow') ? fireFly2.removeClass('glow') : fireFly2.addClass('glow');
-	}, 930);
+	function glowFlies(){
+		console.log('hi')
+		for (var i = 1; i <= flies.length; i++){
+			var interval = 500 + Math.round(Math.random() * 1000);
+			var fly = $('#fireFly' + i)
+			// setTimeout(function(){
+		    	fly.hasClass('glow') ? fly.removeClass('glow') : fly.addClass('glow');
+			// }, interval);
+		}
+	}
 
-	var fireFly3 = $('#fireFly3');
-		setInterval(function(){
+	function onInterval(){
+			setInterval(function(){	
+				glowFlies()
+			},3000)
+	}
 
-		    fireFly3.hasClass('glow') ? fireFly3.removeClass('glow') : fireFly3.addClass('glow');
-	}, 800);
-
-	var fireFly4 = $('#fireFly4');
-		setInterval(function(){
-		    fireFly4.hasClass('glow') ? fireFly4.removeClass('glow') : fireFly4.addClass('glow');
-	}, 900);
-
-	var fireFly5 = $('#fireFly5');
-		setInterval(function(){
-
-		    fireFly5.hasClass('glow') ? fireFly5.removeClass('glow') : fireFly5.addClass('glow');
-	}, 750);
-
-	var fireFly6 = $('#fireFly6');
-		setInterval(function(){
-		    fireFly6.hasClass('glow') ? fireFly6.removeClass('glow') : fireFly6.addClass('glow');
-	}, 1500);
-
-	var fireFly7 = $('#fireFly7');
-		setInterval(function(){
-		    fireFly7.hasClass('glow') ? fireFly7.removeClass('glow') : fireFly7.addClass('glow');
-	}, 1300);
-
+	onInterval();
 
 
 

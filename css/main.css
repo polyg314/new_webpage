@@ -184,14 +184,14 @@ html, body, #skrollr-body{
 #sun-2{
 	height: 100%;
 	width: 100%;
-	background: url('../img/sun-2.jpg');
+	background: url('../img/sun-2.png');
 	background-size: 100% 100%;
 }
 
 #sun-3{
 	height: 110%;
 	width: 100%;
-	background: url('../img/sun-3.png');
+	background: url('../img/sun-3.jpg');
 	background-size: 100% 100%;
 }
 
@@ -255,7 +255,7 @@ html, body, #skrollr-body{
 #discovery-anim-5{
 	height: 100%;
 	width: 100%;
-	background: url('../img/discovery-anim-12.jpg');
+	background: url('../img/discovery-anim-12.png');
 	background-size: 100% 100%;
 }
 
