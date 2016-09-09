@@ -66,14 +66,26 @@ html, body, #skrollr-body{
 	width: 100%;
 	height: 100%;
 	background: url("../img/goldengate.jpg");
-	background-position: 85% 70%; 
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
+
+}
+
+@media(max-width: 700px){
+	#goldengate{
+		background-position: 85% 70%; 
+	    background-size: auto 100%;
+	}
+}
+@media(min-width: 701px){
+	#goldengate{
+		background-position: 85% 50%; 
+		background-size: auto 100%;
+	}	
 }
 
 #meet-paul{
 	position: absolute;
-	top: 45%;
+	top: 40%;
 	width: 100%;
 	text-align: center;
 	z-index: 10 !important;
@@ -91,34 +103,34 @@ html, body, #skrollr-body{
 }
 
 #scientist-musician{
-/*  height: 100%;
-  width: 100%;*/
-/*  background: hsla(0,0%,100%,0.5);
-  padding-left: 15%;
-  padding-top: 25%;*/
   transform-origin: 20% 80%;
   font-size: 35px;
+  padding-left: 20px;
 }
 
 #graduate{
 	height: 100%;
 	width: 100%;
 	background: url('../img/grad-1.png');
-	background-size: 100% 100%;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
 }
 
 #musician{
 	height: 100%;
 	width: 100%;
 	background: url('../img/musician-2.png');
-	background-size: 100% 100%;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
 }
 
 #turned-full-div{
 	height: 100%;
 	width: 100%;
 	background: url('../img/pressy-dev.png');
-	background-size: 100% 100%;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #turned-full{
@@ -130,18 +142,14 @@ html, body, #skrollr-body{
   font-size: 35px;
 }
 
-#turned-full-div{
-	height: 100%;
-	width: 100%;
-	background: url('../img/pressy-dev.png');
-	background-size: 100% 100%;
-}
-
 #full-stack-dev{
 	height: 100%;
 	width: 100%;
 	background: url('../img/pressy-main-main.png');
-	background-size: 100% 100%;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: hsla(0,0%,0%,0.9);
 }
 
 #thought-0{
@@ -178,29 +186,40 @@ html, body, #skrollr-body{
 	height: 110%;
 	width: 100%;
 	background: url('../img/sun-1.png');
-	background-size: 100% 100%;
+	background-size: auto 100%;
+	background-position: center;
 }
 
 #sun-2{
 	height: 100%;
 	width: 100%;
 	background: url('../img/sun-2.png');
-	background-size: 100% 100%;
+	background-size: auto 100%;
+	background-position: center;
 }
 
 #sun-3{
 	height: 110%;
 	width: 100%;
 	background: url('../img/sun-3.png');
-	background-size: 100% 100%;
+	background-size: auto 100%;
+	background-position: center;
 }
 
 #sun-4{
 	height: 100%;
 	width: 100%;
 	background: white;
-	background-size: 100% 100%;
+	background-size: auto 100%;
+	background-position: center;
 }
+
+@media(min-width: 701px){
+	#sun-1, #sun-2, #sun-3, #sun-4{
+		background-size: 100% 100%;
+	}	
+}
+
 
 #utilizing{
   height: 100%;
@@ -227,21 +246,24 @@ html, body, #skrollr-body{
 	height: 100%;
 	width: 100%;
 	background: url('../img/discovery-anim-1.png');
-	background-size: 100% 100%;
+	background-size: auto 100%;
+	background-position: 20% 50%;
 }
 
 #discovery-anim-2{
 	height: 100%;
 	width: 100%;
 	background: url('../img/discovery-anim-2.png');
-	background-size: 100% 100%;
+	background-size: auto 100%;
+	background-position: 20% 50%;
 }
 
 #discovery-anim-3{
 	height: 100%;
 	width: 100%;
 	background: url('../img/discovery-anim-3.png');
-	background-size: 100% 100%;
+	background-size: auto 100%;
+	background-position: 20% 50%;
 }
 
 
@@ -249,14 +271,16 @@ html, body, #skrollr-body{
 	height: 100%;
 	width: 100%;
 	background: url('../img/discovery-anim-5.png');
-	background-size: 100% 100%;
+	background-size: auto 100%;
+	background-position: 20% 50%;
 }
 
 #discovery-anim-5{
 	height: 100%;
 	width: 100%;
 	background: url('../img/discovery-anim-12.png');
-	background-size: 100% 100%;
+	background-size: auto 100%;
+	background-position: 20% 50%;
 }
 
 #discovery-anim-6{
@@ -265,7 +289,8 @@ html, body, #skrollr-body{
 	left: 0%;
 	bottom: 0%;
 	background: url('../img/discovery-anim-7.png');
-	background-size: 100% 100%;
+	background-size: auto 100%;
+	background-position: 20% 50%;
 }
 
 
@@ -273,7 +298,14 @@ html, body, #skrollr-body{
 	height: 100%;
 	width: 100%;
 	background: #081033;
-	background-size: 100% 100%;
+	background-size: auto 100%;
+	background-position: 20% 50%;
+}
+
+@media(min-width: 701px){
+	#discovery-anim-1, #discovery-anim-2, #discovery-anim-3, #discovery-anim-4, #discovery-anim-5, #discovery-anim-6, #discovery-anim-blue{
+		background-size: 100% 100%;
+	}	
 }
 
 
@@ -348,5 +380,9 @@ html, body, #skrollr-body{
 /*    background-color: rgba(252,250,150,.4);*/
     box-shadow: 0 0 5px rgba(232,240,5,1);
     border-radius: 5px;
+}
+
+svg{
+	max-width: 100vw;
 }
 
